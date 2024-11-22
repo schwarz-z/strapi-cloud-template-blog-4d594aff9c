@@ -41,7 +41,7 @@
       "type": "string"
     },
     "content2": {
-      "type": "rich-text"
+      "type": "richtext"
     },
     "blocks": {
       "type": "dynamiczone",
