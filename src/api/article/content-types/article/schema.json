@@ -19,14 +19,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 90
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -44,6 +36,12 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "articles"
+    },
+    "content": {
+      "type": "string"
+    },
+    "content2": {
+      "type": "rich-text"
     },
     "blocks": {
       "type": "dynamiczone",
